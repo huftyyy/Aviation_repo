@@ -1,2 +1,3 @@
 # Aviation_repo
 Cleaning data and coming up with detailed analysis
+The Cleaned_AviationData.csv dataset contains approximately 40,000–50,000 records of aviation incidents from 1962 to 2022, filtered to focus on four aircraft manufacturers: Boeing, Airbus, Cessna, and Piper. This dataset is designed for analyzing aviation safety metrics, including the number of incidents, people involved, and injury severity (Fatal, Serious, Minor, Uninjured). Pre-cleaned with missing values handled, it is ready for use in data visualization (e.g., Tableau, Power BI), statistical analysis (e.g., Python, R), or research to explore safety trends, compare general aviation (Cessna, Piper) versus commercial aviation (Boeing, Airbus), and identify high-risk patterns.
