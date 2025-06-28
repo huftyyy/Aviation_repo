@@ -1,46 +1,40 @@
-Cleaned Aviation Data Analysis
-Overview
-The Cleaned_AviationData.csv dataset provides a comprehensive view of aviation incidents from 1962 to 2022, focusing on four major aircraft manufacturers: Boeing, Airbus, Cessna, and Piper. With approximately 40,000–50,000 records and 33 columns, this pre-cleaned dataset enables analysis of aviation safety metrics, including incident counts, people involved, and injury severity (Fatal, Serious, Minor, Uninjured). This repository supports data-driven insights into safety trends, comparing general aviation (Cessna, Piper) versus commercial aviation (Boeing, Airbus), and is designed for use in visualization tools (e.g., Tableau), statistical analysis (e.g., Python, R), or research. The accompanying Tableau dashboard (Aviation_Incident_Analysis.twb) and analysis notebook visualize key findings, answering critical business questions for aviation safety stakeholders.
-Business Understanding
-Stakeholder
+#Cleaned Aviation Data Analysis
+##Overview
+The Cleaned_AviationData.csv dataset provides a comprehensive view of aviation incidents from 1962 to 2022, focusing on four major aircraft manufacturers: Boeing, Airbus, Cessna, and Piper. With approximately 40,000–50,000 records and 33 columns, this pre-cleaned dataset enables analysis of aviation safety metrics, including incident counts, people involved, and injury severity (Fatal, Serious, Minor, Uninjured). This repository supports data-driven insights into safety trends, comparing general aviation (Cessna, Piper) versus commercial aviation (Boeing, Airbus), and is designed for use in visualization tools (e.g., Tableau), statistical analysis (e.g., Python, R), or research. The accompanying Tableau dashboard (https://public.tableau.com/app/profile/hudheyfa.mohamud/viz/AviationAnalysisTableau/AviationIncidentAnalysis) and analysis notebook visualize key findings, answering critical business questions for aviation safety stakeholders.
+##Business Understanding
+**Stakeholder**
 The primary stakeholders are aviation safety regulators (e.g., FAA, NTSB), aircraft manufacturers (Boeing, Airbus, Cessna, Piper), and safety researchers. These groups aim to improve aviation safety by understanding incident patterns, reducing fatalities, and identifying high-risk factors.
-Key Business Questions
+**Key Business Questions**
 
-Which aircraft makes have the highest incident counts, and how do general and commercial aviation compare?
-Helps prioritize safety interventions for high-incident manufacturers.
-
-
-How has the number of people involved in accidents and their injury severity changed over time (1962–2022)?
-Informs trends in safety improvements and identifies critical periods.
+1. Which aircraft makes have the highest incident counts, and how do general and commercial aviation compare?
+ - Helps prioritize safety interventions for high-incident manufacturers.
 
 
-What are the differences in injury severity (Fatal, Serious, Minor, Uninjured) across aircraft makes?
-Guides targeted safety measures for manufacturers with higher fatal outcomes.
+2. How has the number of people involved in accidents and their injury severity changed over time (1962–2022)?
+ - Informs trends in safety improvements and identifies critical periods.
+
+
+3. What are the differences in injury severity (Fatal, Serious, Minor, Uninjured) across aircraft makes?
+ - Guides targeted safety measures for manufacturers with higher fatal outcomes.
 
 
 
-Data Understanding and Analysis
-Source of Data
+##Data Understanding and Analysis
+**Source of Data**
 
 File: Cleaned_AviationData.csv
-Origin: Likely derived from the NTSB Aviation Accident Database, filtered to include only Boeing, Airbus, Cessna, and Piper incidents, and cleaned for consistency.
-Size: ~40,000–50,000 rows, 33 columns
-Time Period: 1962–2022
+ - Origin: Likely derived from the NTSB Aviation Accident Database, filtered to include only Boeing, Airbus, Cessna, and  - Piper incidents, and cleaned for consistency.
+ - Size: ~40,000–50,000 rows, 33 columns
+ - Time Period: 1962–2022
 
-Description of Data
+**Description of Data**
 The dataset includes detailed incident records with the following key columns:
 
 
 
-Column Name
-Data Type
-Description
+Column Name  Data Type    Description
 
-
-
-Event.Id
-String
-Unique identifier for each incident
+Event.Id     String       Unique identifier for each incident
 
 
 Event.Year
