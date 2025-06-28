@@ -3,7 +3,7 @@
 ## Overview
 The `Cleaned_AviationData.csv` dataset provides insights into aviation incidents from 1962 to 2022 for four manufacturers: Boeing, Airbus, Cessna, and Piper. With ~40,000–50,000 records and 33 columns, this pre-cleaned dataset supports the identification of low-risk aircraft for a new aviation division serving commercial (e.g., passenger airlines, regional flights) and private enterprises (e.g., business jets, charters). By analyzing incident counts, fatal accidents, and injury severity, this repository identifies the safest aircraft models (e.g., Boeing 717, Airbus A380, Cessna 172) to guide purchase decisions. 
 
-The accompanying Tableau dashboard (https://public.tableau.com/app/profile/hudheyfa.mohamud/viz/AviationAnalysisTableau/AviationIncidentAnalysis) and analysis notebook present visualizations to highlight safety records, addressing key business questions for the head of the aviation division.
+The accompanying Tableau dashboard(https://public.tableau.com/app/profile/hudheyfa.mohamud/viz/AviationAnalysisTableau/AviationIncidentAnalysis) and analysis notebook present visualizations to highlight safety records, addressing key business questions for the head of the aviation division.
 
 ## Business Understanding
 ### Stakeholder
